@@ -8,8 +8,8 @@ import json
 from logging import Filter
 from logging.handlers import SocketHandler
 
-from amqplib import client_0_8 as amqp  # pylint: disable=import-error
-
+# from amqplib import client_0_8 as amqp  # pylint: disable=import-error
+import amqp
 from graypy.handler import BaseGELFHandler
 
 try:
