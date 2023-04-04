@@ -84,7 +84,7 @@ setup(
         "amqp",
     ],
     extras_require={
-        "amqp": ["amqp"],
+        "amqp": ["amqplib==1.0.2"],
         "docs": [
             "sphinx>=2.1.2,<3.0.0",
             "sphinx_rtd_theme>=0.4.3,<1.0.0",
